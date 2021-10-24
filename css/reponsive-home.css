@@ -181,8 +181,8 @@
     width: 100%;
   }
  .backtotop-container.show .btn-backtotop{
-   left: 0;
+
+   left: 250px;
   bottom: 30px;
-   margin-left: 250px;
  }
 }
