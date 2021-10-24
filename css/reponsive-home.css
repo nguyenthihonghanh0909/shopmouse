@@ -183,6 +183,6 @@
  .backtotop-container.show .btn-backtotop{
    left: 0;
   bottom: 30px;
-   /* margin-left: 250px; */
+   margin-left: 250px;
  }
 }
