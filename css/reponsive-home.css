@@ -176,9 +176,13 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .backtotop-container.show .btn-backtotop {
-    right: 1100px;
-    bottom: 50px;
-    /* right: 1000px; */
+
+  .backtotop-container{
+    width: 100%;
   }
+ .backtotop-container.show .btn-backtotop{
+   left: 0;
+  bottom: 30px;
+   margin-left: 250px;
+ }
 }
