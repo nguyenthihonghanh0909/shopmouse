@@ -34,6 +34,7 @@
   align-items: center;
   border-right: 2px solid gray;
 }
+
 .khung-header-1-con:last-child {
   width: 50%;
   display: flex;
@@ -605,6 +606,8 @@ span.label-product.sale {
   font-weight: bold;
 }
 
+/* nút */
+
 .backtotop-container .btn-backtotop {
   display: inline-block;
   position: fixed;
@@ -840,7 +843,7 @@ nav.nav-menu-burger .menu > li li {
   list-style: none;
   display: none;
   z-index: 99;
-  /* margin-top: 5px; */
+  margin-top: 5px;
 }
 
 .top-dropdown ul.links li {

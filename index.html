@@ -96,7 +96,6 @@
                                     <p>BEST COLLECTION</p>
                                     <p>TheSis Spring
                                         Collection</p>
-
                                     <div class="button-slider">
                                         <button><a href="#">SHOP NOW</a></button>
                                     </div>
@@ -1001,7 +1000,7 @@
     // Show mặc định tab all
     $('#myTab a[href="#all"]').tab('show')
 
-    //scroll top
+    //nút
     $(window).on("load scroll", function () {
         $(window).scrollTop() > $(window).height() + 100 ? $(".backtotop-container").addClass("show") : $(".backtotop-container").removeClass("show")
     }), $(document).on("click", ".btn-backtotop", function (e) {
@@ -1009,7 +1008,7 @@
             scrollTop: 0
         }, 800)
     });
-    //header aside jquery
+    //menu
     $(document).on("click", ".action-aside_header,.btn-aside-toggle", function (t) {
         t.preventDefault(), $(this).hasClass("btn-master-toggle") ? $('body').toggleClass("open-master-aside") : $('body').toggleClass("open-header-aside")
     });

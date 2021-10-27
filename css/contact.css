@@ -64,39 +64,37 @@
   text-align: center;
 }
 
-ul.breadcrumb-contact {
-    
+.breadcrumb-contact {
   list-style: none;
   display: flex;
   flex-direction: row;
   font-weight: bold;
 }
 
-ul.breadcrumb-contact li {
+.breadcrumb-contact li {
   display: inline;
   font-size: 14px;
   margin-top: 4px;
 }
 
-ul.breadcrumb-contact li + li:before {
+.breadcrumb-contact li + li:before {
   padding: 8px;
   color: #898989;
   content: "•";
 }
 
-ul.breadcrumb-contact li a {
+.breadcrumb-contact li a {
   color: #898989;
   text-decoration: none;
 }
-ul.breadcrumb-contact li a:hover {
+.breadcrumb-contact li a:hover {
   color: #898989;
   text-decoration: underline;
 }
 
-ul.breadcrumb-contact li:last-child {
+.breadcrumb-contact li:last-child {
   color: #f6663f;
 }
-
 
 .khung-container2{
     margin-top: 65px;
@@ -120,7 +118,6 @@ ul.breadcrumb-contact li:last-child {
 .khungcontainer2-1 p{
     margin-top: 20px;
     font-size: 14px;
-    font-weight: bold;
     color: #898989;
 }
 
@@ -137,7 +134,6 @@ ul.breadcrumb-contact li:last-child {
 .khungcontainer2-2 p{
     margin-top: 20px;
     font-size: 14px;
-    font-weight: bold;
     color: #898989;
 }
 
@@ -175,7 +171,6 @@ ul.breadcrumb-contact li:last-child {
 
 .pobox p{
     font-size: 14px;
-    font-weight: bold;
     color: #898989;
 }
 
@@ -207,7 +202,6 @@ ul.breadcrumb-contact li:last-child {
     margin-top: 27px;
     line-height: 24px;
     font-size: 15px;
-    font-weight: bold;
     color: #898989;
 }
 
@@ -232,8 +226,6 @@ input{
     padding-top: 15px;
     padding-bottom: 15px;
     outline: none;
-    font-weight: bold;
-    
 }
 
 .message-contact{
@@ -246,17 +238,8 @@ input{
     padding: 0;
     margin-top: 45px;
     font-size: 15px;
-    font-weight: bold;
 }
 
-.input-contact input:focus{
-    border-color: black;
-}
-
-.message-contact:focus{
-    border-color: black;
-
-}
 
 input:focus::-webkit-input-placeholder {
     color: black;
@@ -292,8 +275,8 @@ textarea:focus::-webkit-input-placeholder {
 .button-contact a{
     text-decoration: none;
     font-size: 14px;
-    font-weight: bold;
     color: white;
+    font-weight: bold;
 }
 
 .footer-contact{

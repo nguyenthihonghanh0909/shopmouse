@@ -30,7 +30,8 @@ ul.breadcrumb-cart {
 
 ul.breadcrumb-cart li {
   display: inline;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 ul.breadcrumb-cart li + li:before {

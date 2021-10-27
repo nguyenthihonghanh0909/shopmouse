@@ -33,7 +33,8 @@ ul.breadcrumb-checkout {
 
 ul.breadcrumb-checkout li {
   display: inline;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 ul.breadcrumb-checkout li + li:before {
@@ -69,7 +70,7 @@ ul.breadcrumb-checkout li:last-child {
 }
 
 .form-information p {
-  color: #c2c2c2;
+  color: #898989;
 }
 
 .form-information p:nth-child(1) {
@@ -96,7 +97,7 @@ ul.breadcrumb-checkout li:last-child {
 
 .form-group {
   margin-top: 40px;
-  color: #c2c3c5;
+  color: #898989;
 }
 
 .form-option {
@@ -107,7 +108,7 @@ ul.breadcrumb-checkout li:last-child {
   border-radius: 30px;
   text-indent: 22px;
   margin-top: 15px;
-  color: #c2c3c5;
+  color: #898989;
 }
 
 .form-groupchung {
@@ -120,7 +121,7 @@ ul.breadcrumb-checkout li:last-child {
 
 .form-group1 {
   
-  color: #c2c3c5;
+  color: #898989;
   font-size: 14px;
 }
 
@@ -142,7 +143,7 @@ ul.breadcrumb-checkout li:last-child {
 
 .form-group-company {
   margin-top: 30px;
-  color: #c2c3c5;
+  color: #898989;
   font-size: 14px;
 }
 
@@ -187,14 +188,14 @@ ul.breadcrumb-checkout li:last-child {
 }
 .your-oder h4 {
   padding: 45px 0 25px 0;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #898989;
 }
 
 .products{
   width: 402px;
   padding: 28px 0 20px 0;
   margin: 0 auto;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #898989;
 }
 
 .products h3{
@@ -206,14 +207,14 @@ ul.breadcrumb-checkout li:last-child {
   margin-top: 22px;
   display: flex;
   justify-content: space-between;
-  color: #d2d2d2;
+  color: #898989;
 }
 
 .subtotal{
   width: 402px;
   height: 58px;
   margin: 0 auto;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #898989;
 }
 
 .banggia-subtotal{
